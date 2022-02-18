@@ -1,0 +1,15 @@
+GET http://localhost:8080/movies
+
+###
+
+GET http://localhost:8080/movies/5
+
+###
+
+POST http://localhost:8080/movies
+Content-Type: application/json
+
+{
+  "title": "Raiders of the Lost Ark",
+  "year": 1981
+}
